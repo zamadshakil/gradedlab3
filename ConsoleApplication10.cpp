@@ -6,7 +6,7 @@ int main()
 	int n;
 	cout << "Enter a number: ";
 	cin >> n;
-	int decr = n, incr=1;
+	int decr = n;
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= decr; j++) {
 			cout << " ";
@@ -18,7 +18,6 @@ int main()
 			cout << m;
 		}
 		cout << endl;
-		incr++;
 		decr--;
 	}
 
